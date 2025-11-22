@@ -1,11 +1,12 @@
+import React from "react";
 import AboutExperience from "@/components/about_experience";
 import Header from "@/components/header";
-import React from "react";
-
+import Footer from "@/components/footer";
 function Products() {
   return <>
   <Header />
   <AboutExperience/>
+  <Footer/>
 </>;
 }
 
