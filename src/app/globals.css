@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url("/vendors/jetly-icons/style.css"); */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --whiteDark: #ffffff;
+  --whiteLight: rgba(255, 255, 255, 0.4);
+  --whiteLight2: rgba(255, 255, 255, 0.6);
+  --blackDark: #000000;
+  --blackLight: rgba(0, 0, 0, 0.4);
+  --blackLight2: rgba(0, 0, 0, 0.6);
+  --yellowDark: #E48B04;
+  --yellowLight: rgba(228, 138, 4, 0.4);
+  --yellowLight2: rgba(228, 138, 4, 0.6);
+  --grayDark: #323232;
+  --grayLight: rgba(50, 50, 50, 0.4);
+  --grayLight2: rgba(50, 50, 50, 0.6);
+  --gray2Dark: #646464;
+  --gray2Light: rgba(100, 100, 100, 0.4);
+  --gray2Light2: rgba(100, 100, 100, 0.6);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --whiteDark: #000000;
+    --blackDark: #ffffff;
+  }
+} */
+
+.saira {
+  font-family: var(--font-saira);
+}
+
+.nunitoSans {
+  font-family: var(--font-nunito-sans);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}

@@ -1,0 +1,95 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        whiteDark: "var(--whiteDark)",
+        whiteLight: "var(--whiteLight)",
+        whiteLight2: "var(--whiteLight2)",
+        blackDark: "var(--blackDark)",
+        blackLight: "var(--blackLight)",
+        blackLight2: "var(--blackLight2)",
+        yellowDark: "var(--yellowDark)",
+        yellowLight: "var(--yellowLight)",
+        yellowLight2: "var(--yellowLight2)",
+        grayDark: "var(--grayDark)",
+        grayLight: "var(--grayLight)",
+        grayLight2: "var(--grayLight2)",
+        gray2Dark: "var(--gray2Dark)",
+        gray2Light: "var(--gray2Light)",
+        gray2Light2: "var(--gray2Light2)",
+      },
+      fontSize: {
+        h1: "61px",
+        h2: "54px",
+        h3: "47px",
+        h4: "40px",
+        h5: "33px",
+        h6: "26px",
+        btn1: "18px",
+        btn2: "16px",
+        btn3: "14px",
+        p1: "16px",
+        p2: "14px",
+        p3: "12px",
+      },
+      // lineHeight: {
+      //   h1: "61px",
+      //         },
+      // borderRadius: {
+      //   "25%": "25%",
+      //   "50%": "50%",
+      //   "top-right-50": "0 50px 0 0",
+      //   "top-left-50": "50px 0 0 0",
+      //   "bottom-left-50": " 0 0  0 50px",
+      //   "bottom-right-50": " 0 0 50px 0",
+      //   "custom-shape1": "33% 67% 23% 77% / 77% 73% 27% 23%",
+      //   "custom-shape2": "30% 70% 39% 61% / 61% 30% 70% 39%",
+      //   "custom-shape3": "23% 77% 33% 67% / 27% 23% 77% 73%",
+      //   "custom-shape4": "39% 61% 30% 70% / 70% 39% 61% 30%",
+      // },
+      fontWeight: {
+        h1: "900",
+        h2: "800",
+        h3: "700",
+        h4: "600",
+        btn1: "700",
+        btn2: "600",
+        p1: "500",
+        p2: "400",
+      },
+      maxWidth: {
+        "1600px": 1600,
+      },
+      maxHeight: {
+        "800px": 800,
+      },
+      // screens: {
+      //   "1596px": { max: "1596px" },
+      // },
+      width: {
+        "88%": "88%",
+        // "1600px": "1600px",
+      },
+      // height: {
+      //   "100%": "100%",
+      //   "96px": "96px",
+      //   "104px": "104px",
+      //   "108px": "108px",
+      //   "112px": "112px",
+      // },
+      // margin: {
+      //   "112px": "112px",
+      // },
+      // padding: {
+      //   "112px": "112px",
+      // },
+    },
+  },
+  plugins: [],
+};

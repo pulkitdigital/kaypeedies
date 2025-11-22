@@ -1,0 +1,16 @@
+.about-experience-card{
+    transition: box-shadow 400ms ease-in-out;
+    &:hover{
+        box-shadow: 4px 4px 8px var(--blackLight2);
+    }
+}
+.about-card {
+  background: #d88e00; /* your yellow color */
+}
+
+/* Center-out black reveal */
+.about-card:hover > div {
+  transform: scale(3.5);
+  opacity: 1;
+  transform-origin: center;
+}
