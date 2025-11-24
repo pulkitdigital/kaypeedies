@@ -69,7 +69,7 @@ function OurProductCardHomePage({ cardData }) {
           </p>
         )}
 
-        <Btn btnProps={btnProperties} btnRoute="/" />
+        <Btn btnProps={btnProperties} btnRoute="/products" />
       </div>
     </div>
   );

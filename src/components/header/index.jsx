@@ -21,7 +21,7 @@ function Header() {
               Carbide Dies & Lubricants: Engineered for Performance, Backed by
               Trust.
             </h2>
-            <Btn btnProps={btnProperties} btnRoute={`/`} />
+            <Btn btnProps={btnProperties} btnRoute={`/about`} />
           </div>
         </div>
       </section>

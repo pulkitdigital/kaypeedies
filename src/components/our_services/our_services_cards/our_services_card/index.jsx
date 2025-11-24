@@ -75,7 +75,7 @@ function OurServicesCard({ cardData }) {
           </p>
         )}
 
-        <Btn btnProps={btnProperties} btnRoute="/" />
+        <Btn btnProps={btnProperties} btnRoute="/services" />
       </div>
     </div>
   );

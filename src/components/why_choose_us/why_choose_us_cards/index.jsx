@@ -52,7 +52,7 @@ function WhyChooseUsCards() {
         ))}
       </div>
       <div className="w-full flex justify-center">
-        <Btn btnProps={btnProperties} btnRoute="/" />
+        <Btn btnProps={btnProperties} btnRoute="/contact" />
       </div>
     </>
   );

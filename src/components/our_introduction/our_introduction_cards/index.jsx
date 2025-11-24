@@ -42,7 +42,7 @@ function OurIntroductionCards() {
 
       {/* Button centered on all screens */}
       <div className="w-full flex justify-center">
-        <Btn btnProps={btnProperties} btnRoute="/" />
+        <Btn btnProps={btnProperties} btnRoute="/contact" />
       </div>
     </>
   );
