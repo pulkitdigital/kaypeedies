@@ -1,31 +1,31 @@
 import React from "react";
 import MainH3 from "../main_h3";
 import Image from "next/image";
-import OurProductsCards from "./our_products_cards";
-import { ourProductsData } from "@/app/data/OurProductsData";
+import ServicePageCards from "./ServicePageCards";
 
-function OurProducts() {
+function OurServicePage() {
   const mainH3Properties = {
-    mainH3Name: "Our Products",
+    mainH3Name: "Our Services",
     mainH3TextColor: "text-yellowDark",
     mainH3BgColor: "bg-yellowDark",
   };
 
   return (
-    <main className="our-products-main w-full flex items-center justify-center">
-      <section className="our-products-sec relative w-full flex items-center justify-center overflow-hidden">
+    <main className="our-services-main w-full flex items-center justify-center">
+      <section className="our-services-sec relative w-full flex items-center justify-center overflow-hidden">
+        {/* Background image */}
         <Image
           width={1600}
           height={800}
           src="/bgMapShade.png"
           alt="bgMapShade"
-          priority
+          priority={true}
           className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none"
         />
 
         <div
           className="
-            our-products-div
+            our-services-div
             relative z-20
             w-full
             max-w-6xl
@@ -37,8 +37,8 @@ function OurProducts() {
             flex-col
             items-center
             justify-center
-            gap-6
-            sm:gap-8
+            gap-4
+            sm:gap-6
             py-16
             sm:py-20
             lg:py-28
@@ -56,23 +56,36 @@ function OurProducts() {
               font-semibold
               leading-tight
               sm:leading-snug
+              lg:leading-snug
               text-blackDark
-              max-w-3xl
+              mb-2
+              sm:mb-4
             "
           >
-            We specialize in designing & recommending the correct die
-            specifications for optimum performance.
+            Service We’re Offering to Our Customers
           </h4>
-
-          {/* cards grid */}
-          <OurProductsCards products={ourProductsData} />
-          {/* if you want sectionTitle from OurProductCards as well: 
-              <OurProductsCards sectionTitle="Product Range" products={ourProductsData} /> 
-          */}
+          <p
+            className="
+              nunitoSans
+              text-center
+              text-sm
+              sm:text-base
+              lg:text-lg
+              leading-relaxed
+              mb-8
+              max-w-3xl
+              text-blackDark
+            "
+          >
+            Tungsten carbide dies for Wire, Bright Bar, Tube drawing, Extrusion, Heading and other special applications.
+          </p>
+          <ServicePageCards />
+          {/* Cards section – make sure this component uses responsive grid/flex */}
+          {/* <OurServicesCards /> */}
         </div>
       </section>
     </main>
   );
 }
 
-export default OurProducts;
+export default OurServicePage;

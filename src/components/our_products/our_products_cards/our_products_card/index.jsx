@@ -3,13 +3,13 @@ import Image from "next/image";
 import React from "react";
 import "./style.css";
 
-function OurProductsCard({ cardData, ind }) {
+function OurProductCardHomePage({ cardData }) {
   const btnProperties = {
     btnName: "Read More",
     btnBgColor: "bg-yellowDark",
     btnShadeColor: "bg-blackDark",
     btnTextColor: "text-whiteDark",
-    btnTextNewColor: "group-hover:text-yellowDark",
+    btnTextNewColor: "group-hover:text-whiteDark",
   };
 
   return (
@@ -31,7 +31,7 @@ function OurProductsCard({ cardData, ind }) {
         width={400}
         height={400}
         src={cardData.productImage}
-        alt={cardData.productImage}
+        alt={cardData.productName}
         priority
         className="
           w-full
@@ -55,10 +55,24 @@ function OurProductsCard({ cardData, ind }) {
           {cardData.productName}
         </h5>
 
+        {cardData.productShortDesc && (
+          <p
+            className="
+              nunitoSans
+              text-gray-700
+              text-xs sm:text-sm lg:text-base
+              leading-relaxed
+              line-clamp-3
+            "
+          >
+            {cardData.productShortDesc}
+          </p>
+        )}
+
         <Btn btnProps={btnProperties} btnRoute="/" />
       </div>
     </div>
   );
 }
 
-export default OurProductsCard;
+export default OurProductCardHomePage;

@@ -1,11 +1,12 @@
 import React from 'react'
-import AboutExperience from '@/components/about_experience'
-import Header from '@/components/header'
+import ContactHeader from './ContactHeader'
+import ContactSection from '@/components/contact_page'
 import Footer from '@/components/footer'
 function Contact() {
   return (
     <>
-      <Header />
+      <ContactHeader/>
+      <ContactSection/>
       <Footer/>
     </>
   )

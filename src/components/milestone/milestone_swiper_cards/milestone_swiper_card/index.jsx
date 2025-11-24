@@ -16,6 +16,7 @@ function MilestoneSwiperCard({ data }) {
         p-4
         bg-yellowDark
         rounded-lg
+        lg:min-h-[650px]
       "
     >
       <Image

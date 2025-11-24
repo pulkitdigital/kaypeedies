@@ -1,12 +1,12 @@
 import React from "react";
-import AboutExperience from "@/components/about_experience";
-import Header from "@/components/header";
+import ServiceHeader from "./ServiceHeader";
+import OurServicePage from "@/components/our_service_page";
 import Footer from "@/components/footer";
 import WhyChooseUs from "@/components/why_choose_us";
 function Services() {
   return <>
-  <Header />
-  <AboutExperience/>
+  <ServiceHeader />
+  <OurServicePage/>
   <WhyChooseUs/>
   <Footer/>
 </>;

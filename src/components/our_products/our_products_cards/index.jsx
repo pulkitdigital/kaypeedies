@@ -1,6 +1,6 @@
 import React from "react";
 import { ourProductsData } from "@/app/data/OurProductsData";
-import OurProductsCard from "./our_products_card";
+import OurProductCardHomePage from "./our_products_card";
 
 function OurProductsCards() {
   return (
@@ -16,7 +16,7 @@ function OurProductsCards() {
       "
     >
       {ourProductsData?.map((data, ind) => (
-        <OurProductsCard key={ind} cardData={data} ind={ind} />
+        <OurProductCardHomePage key={ind} cardData={data} ind={ind} />
       ))}
     </div>
   );

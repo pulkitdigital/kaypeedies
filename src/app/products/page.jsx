@@ -1,11 +1,11 @@
 import React from "react";
-import AboutExperience from "@/components/about_experience";
-import Header from "@/components/header";
+import ProductHeader from "@/app/products/ProductHeader";
+import OurProductPage from "@/components/our_product_page";
 import Footer from "@/components/footer";
 function Products() {
   return <>
-  <Header />
-  <AboutExperience/>
+  <ProductHeader/>
+  <OurProductPage/>
   <Footer/>
 </>;
 }
