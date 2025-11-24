@@ -94,7 +94,7 @@ export const consumableProducts = [
 export const lubricantProducts = [
   {
     name: "Surface Compound",
-    image: "/images/product/SurfaceCompounds.jpg",
+    image: "/images/product/surfaceCompounds.jpg",
     description:
       "Chemical processes applied to the wire surface to enhance its properties such as corrosion resistance, lubrication and drawing performance.",
   },

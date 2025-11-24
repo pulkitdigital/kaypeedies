@@ -17,7 +17,7 @@ function OurProductCard({ cardData, ind }) {
     >
       <div
         className="
-          bg-white
+          bg-[#e48b04]
           rounded-2xl
           border border-gray-200
           shadow-[0_4px_16px_rgba(0,0,0,0.04)]
