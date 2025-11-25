@@ -100,7 +100,7 @@ export const lubricantProducts = [
   },
   {
     name: "Protective Compounds",
-    image: "/images/product/protectiveCompounds.jpg",
+    image: "/images/product/protectiveCompounds.webp",
     description:
       "Protective compounds that minimise oxidation and rust, helping the wire retain its surface quality during storage and subsequent processing.",
   },
